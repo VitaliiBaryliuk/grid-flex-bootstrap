@@ -73,10 +73,6 @@ gulp.task('processFonts', function () {
 
 gulp.task('processStyles', function () {
   return gulp.src(stylesBlob)
-    .pipe(concat('styles.css'))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions']
-    }))
     .pipe(gulp.dest(`${distDirectory}/css`));
 });
 
