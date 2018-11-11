@@ -1,3 +1,6 @@
+.container {
+  margin: 0px; }
+
 .header__logo {
   height: 100px;
   background-color: #f0be2e;
