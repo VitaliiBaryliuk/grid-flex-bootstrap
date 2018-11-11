@@ -1,0 +1,44 @@
+.header {
+  height: 100px;
+  display: flex; }
+  .header__logo {
+    min-width: 100px;
+    justify-content: flex-start;
+    background-color: #f0be2e;
+    border: 1px solid black; }
+  .header__menu {
+    width: 100%;
+    background-color: red;
+    border: 1px solid black; }
+
+.section {
+  display: flex;
+  height: 300px;
+  justify-content: flex-start; }
+  .section__news {
+    justify-content: flex-start;
+    min-width: 100px;
+    background-color: #ac4c4c;
+    border: 1px solid black; }
+  .section__right-side {
+    justify-content: flex-start;
+    display: flex;
+    width: 100%; }
+  .section__something {
+    justify-content: flex-start;
+    width: 65%;
+    background-color: #f0be2e;
+    border: 1px solid black; }
+  .section__navigation {
+    justify-content: flex-end;
+    width: 35%;
+    background: #333333;
+    height: 450px;
+    border: 1px solid black; }
+
+.footer {
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 150px;
+  background-color: #f0be2e;
+  border: 1px solid black; }

@@ -1,0 +1,36 @@
+.header__logo {
+  height: 100px;
+  background-color: #f0be2e;
+  border: 1px solid black; }
+
+.header__menu {
+  height: 100px;
+  background-color: red;
+  border: 1px solid black; }
+
+.section__navigate {
+  height: 450px;
+  z-index: 100;
+  padding: 0;
+  background-color: #333333;
+  border: 1px solid black;
+  float: right; }
+
+.section {
+  position: relative;
+  top: -450px;
+  padding: 0;
+  float: left; }
+  .section__news {
+    height: 300px;
+    background-color: #ac4c4c;
+    border: 1px solid black; }
+  .section__something {
+    background-color: #f0be2e;
+    height: 300px;
+    border: 1px solid black; }
+
+.footer {
+  height: 150px;
+  float: left;
+  background-color: #f0be2e; }
